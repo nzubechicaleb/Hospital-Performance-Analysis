@@ -24,19 +24,29 @@ The goal of this project was to translate raw hospital data into actionable insi
 
 PowerBi Dashboard can be downloaded https://github.com/nzubechicaleb/Hospital-Performance-Analysis/blob/main/Hospital%20Dashboard.pptx
 
+## Data Structure
+
+All dimension tables are connected directly to the 'FACT TABLE' using one-to-many relationships. The relationship lines (or 'cardinality') show a '1' on the dimension table side and an asterisk ('*') on the Fact Table side.
+
+![star schema](https://github.com/user-attachments/assets/45de03a9-3336-4c5e-94cb-d6383f620198)
+
+This structure ensures that filters applied in any dimension table (e.g., filtering by 'Elective' in the Dim Admission Type) flow down and correctly filter the metrics in the Fact Table. This schema is efficient, scalable, and correctly organized to support the comprehensive hospital performance and patient outcomes dashboard you are building
+
+
+
 ## Executive Summary  
 
 This dashboard delivers a comprehensive view of hospital performance, revealing how admission types, patient demographics, and treatment durations affect billing and discharge outcomes.  
 
 **Key takeaways include:**  
-- Elective admissions drive the majority of hospital revenue, showing longer average stays (15–30 days) and higher billing values ($200K–$350K).  
-- Urgent admissions maintain a balance between care intensity and cost efficiency, clustering around mid-level billing ($100K–$200K) for moderate stays (5–15 days).  
-- Emergency admissions are operationally critical but less profitable, typically short-stay (<15 days) and below $200K billing.  
+- Elective admissions drive the majority of hospital revenue, showing longer average stays (15–30 days) and higher billing values ($3M–$4M).  
 - A strong positive correlation exists between Average Length of Stay (ALOS) and Total Billing, especially in planned admissions.  
 
 These insights highlight opportunities to optimize financial performance without compromising quality of care, through targeted improvements in stay duration management and care pathways.  
 
----
+![EXCUTIVE SUMMARY](https://github.com/user-attachments/assets/c4066715-661c-404a-91c2-4e08a0e72991)
+
+
 
 ## Insight Deep Dive  
 
@@ -44,7 +54,9 @@ These insights highlight opportunities to optimize financial performance without
 **Qualified Values:**  
 - Average Length of Stay (ALOS): **15.71 days**  
 - Average Billing per Patient: **$24.646.2k**  
-- Discharge Rate: **97.66%**  
+- Discharge Rate: **97.66%**
+
+  ![EXECUTIVE 22](https://github.com/user-attachments/assets/d448f779-6f9e-4e52-8fc9-7bd065ea5a8e)
 
 Comparing across admission types, elective cases have maintained stable LOS and billing over time, while urgent cases show variability — suggesting operational bottlenecks.  
 
