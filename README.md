@@ -22,7 +22,7 @@ This analysis was conducted using a hospital admissions dataset containing key i
 
 The goal of this project was to translate raw hospital data into actionable insights that improve decision-making around patient flow, cost control, and care outcomes.  
 
-An interactive PowerBi Dashboard can be downloaded
+PowerBi Dashboard can be downloaded https://github.com/nzubechicaleb/Hospital-Performance-Analysis/blob/main/Hospital%20Dashboard.pptx
 
 ## Executive Summary  
 
