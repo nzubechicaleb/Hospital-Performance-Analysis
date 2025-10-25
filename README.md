@@ -1,6 +1,6 @@
 # Hospital-Performance-Analysis
 
-# 🏥 Hospital Performance & Patient Outcomes Dashboard  
+# Hospital Performance & Patient Outcomes Dashboard  
 
 ![Power BI](https://img.shields.io/badge/Built%20With-Power%20BI-yellow?style=for-the-badge&logo=powerbi)  
 ![Data Modeling](https://img.shields.io/badge/Data%20Model-Star%20Schema-blue?style=for-the-badge)  
