@@ -60,7 +60,6 @@ These insights highlight opportunities to optimize financial performance without
 
 Comparing across admission types, elective cases have maintained stable LOS and billing over time, while urgent cases show variability — suggesting operational bottlenecks.  
 
----
 
 ###  2. Cost & Insurance Impact  
 **Qualified Values:**  
@@ -69,7 +68,6 @@ Comparing across admission types, elective cases have maintained stable LOS and 
 
 High dependency on few insurers increases financial concentration risk. Diversifying insurance partnerships or negotiating cost-sharing models could improve revenue stability.  
 
----
 
 ## Recommendations  
 
@@ -79,7 +77,6 @@ Elective cases are profitable but resource-intensive. Introducing **Enhanced Rec
 ### 2. Enhance Emergency Care Efficiency  
 Emergency admissions are vital for hospital reputation and patient safety. Implementing **Rapid Assessment Units (RAUs)** and **triage analytics** can reduce congestion and lower the cost per emergency episode.  
 
----
 
 ## Tech Stack  
 - **Power BI** — Data visualization & dashboard creation  
@@ -88,7 +85,6 @@ Emergency admissions are vital for hospital reputation and patient safety. Imple
 - **Star Schema** — Data modeling for optimized relationships  
 - **Excel / CSV** — Source dataset  
 
----
 
 ## Metrics Used  
 - **Average Length of Stay (ALOS)**  
@@ -97,18 +93,9 @@ Emergency admissions are vital for hospital reputation and patient safety. Imple
 - **Top Insurance Provider Coverage %**  
 - **Revenue by Admission Type**  
 
----
-
-## Domain Knowledge  
-Hospital performance analytics provides operational insights into **care efficiency**, **resource utilization**, and **financial sustainability**.  
-By integrating **clinical, financial, and operational** dimensions, hospitals can shift from reactive reporting to **data-driven strategic planning**.  
-
----
 
 ## Contact  
 If you’d like to connect or discuss similar healthcare analytics projects:  
-**Author:** [Your Name Here]  
-**Email:** [your.email@example.com]  
-**LinkedIn:** [Your LinkedIn Profile]  
+**Author:** Nzubechi Caleb 
+**Email:** nzubechicaleb00@gmail.com
 
----
